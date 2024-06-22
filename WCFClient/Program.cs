@@ -13,11 +13,11 @@ namespace WCFClient
 {
     public class Program
     {
-        static string keyVaultUri = ConfigurationManager.AppSettings["KeyVaultUri"];
-        static string certName = ConfigurationManager.AppSettings["CertName"];
-        static string subjectName = ConfigurationManager.AppSettings["SubjectName"];
-        static string wshttpBinding = "WSHttpBinding_IService";
-        static string basichttpBinding = "BasicHttpBinding_IService";
+        static readonly string keyVaultUri = ConfigurationManager.AppSettings["KeyVaultUri"];
+        static readonly string certName = ConfigurationManager.AppSettings["CertName"];
+        static readonly string subjectName = ConfigurationManager.AppSettings["SubjectName"];
+        static readonly string wshttpBinding = "WSHttpBinding_IService";
+        static readonly string basichttpBinding = "BasicHttpBinding_IService";
 
         public static async Task Main(string[] args)
         {
