@@ -159,18 +159,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ServiceReference1\Reference.cs">
+    <Compile Include="Connected Services\ServiceReferenceIvan\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="Connected Services\ServiceReference1\Service.wsdl" />
-    <None Include="Connected Services\ServiceReference1\WCFClient.ServiceReference1.Registration.datasource">
+    <None Include="Connected Services\ServiceReferenceIvan\Service.wsdl" />
+    <None Include="Connected Services\ServiceReferenceIvan\WCFClient.ServiceReferenceIvan.Registration.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ServiceReference1\WCFClient.ServiceReference1.RegistrationDaySummary.datasource">
+    <None Include="Connected Services\ServiceReferenceIvan\WCFClient.ServiceReferenceIvan.RegistrationDaySummary.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="makecert.ps1" />
@@ -195,16 +195,16 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReferenceIvan\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceReferenceIvan\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReference1\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceReferenceIvan\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReference1\Reference.svcmap">
+    <None Include="Connected Services\ServiceReferenceIvan\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

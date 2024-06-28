@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="9.1" CheckSum="Kn5GKpTI7y3P0ssCXXQdX9joUc/ppELCvQGSrzy5LKM=">
+<SavedWcfConfigurationInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="9.1" CheckSum="/v5q0KVgZ7/K1ycwloDX05uhHmro+MDrOwE+ibtmI6o=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IService">
       <properties>
@@ -236,10 +236,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="WSHttpBinding_IService" contract="ServiceReference1.IService" bindingType="wsHttpBinding" address="http://smarthotelregistrationwcf20240621113659.azurewebsites.net/Service.svc" bindingConfiguration="WSHttpBinding_IService">
+    <endpoint name="WSHttpBinding_IService" contract="ServiceReferenceIvan.IService" bindingType="wsHttpBinding" address="http://cibc-smarthotelregistrationwcf.azurewebsites.net/Service.svc" bindingConfiguration="WSHttpBinding_IService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://smarthotelregistrationwcf20240621113659.azurewebsites.net/Service.svc</serializedValue>
+          <serializedValue>http://cibc-smarthotelregistrationwcf.azurewebsites.net/Service.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -251,7 +251,7 @@
           <serializedValue>WSHttpBinding_IService</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>ServiceReference1.IService</serializedValue>
+          <serializedValue>ServiceReferenceIvan.IService</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -290,7 +290,7 @@
           <serializedValue>System.ServiceModel.Configuration.CertificateElement</serializedValue>
         </property>
         <property path="/identity/certificate/encodedValue" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>AwAAAAEAAAAUAAAA6ks/q9Uwm/ZypweB3BfO+Ow9C7ggAAAAAQAAACUDAAAwggMhMIICCaADAgECAhBh7e24w9YBsU9jvED0WV2LMA0GCSqGSIb3DQEBBQUAMBcxFTATBgNVBAMMDG15ZG9tYWluLmNvbTAeFw0yNDA2MjExNDUyNTJaFw0yNTA2MjExNTEyNTJaMBcxFTATBgNVBAMMDG15ZG9tYWluLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKe1OkeNpDpMhLB+IGPvBYrA5o6AmKMNPybUcoHZ3WimRdg+0962JHg1r7PflUws2ACXkyGknI01Os7jpVyf/eNNw0oHN+1FYAck49teu8ULSsdT6M78WQ9OGAMcMFarNib+5jOInlHRIQk4ZGlFjTIpHGIoj6k9r/sQmTwXHwLnPYLYAL2hugja25jwPdD6cNPLERVnMBOoDjjG8ASZ5Rn/jeXPjK9/czm2tK/CvaLbura+lCO8GcwFKMv5iSGcncKajuv1nzeSiMnwimxs2xUjr4uVEO73yP/u/ACwZ73LNXSvslKvOpmKiejOGVuU1fu+kfaolTIPgvSTFnXYSu0CAwEAAaNpMGcwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAXBgNVHREEEDAOggxteWRvbWFpbi5jb20wHQYDVR0OBBYEFNoi5MUy31pK2RrEWGi8iNZGlIH7MA0GCSqGSIb3DQEBBQUAA4IBAQCWSRcmSDC1s4vctF3hfAVvINLyEEuYhXpWOx2XCqAexLmIAzwdcrNeRwGisIUsDZucWpYpj3OFZSMGAzkGfKvCA9jOLnCUaul/GVHZLQGSj+dXeE6+mc/7rOZ9S0VdbXu9z3Q+yJo7N5huncw22xHdsgh5G3NUegfU7zFcutnLNGZFgGWnMhNzRMCgSiQ7uZmTBcIkRP7IuDcsvKbh48wIfl4izaSWocr5PLHMZ8YKLyeXvoJG39+MS1yamhgzXPdBaDwpzuVN0hXEUuvJQ/K4ozXYYv3nPoi8yuKQ4T8Gp795IoziFuhw7/zvzYbE5yttIqP2i/YDlFTWWx8ZyKkQ</serializedValue>
+          <serializedValue>AwAAAAEAAAAUAAAA4iZUce68iEVj1oKvzPFix7McYaogAAAAAQAAACUDAAAwggMhMIICCaADAgECAhAYB5e9uoATkUv5AGCfCud3MA0GCSqGSIb3DQEBBQUAMBcxFTATBgNVBAMMDG15ZG9tYWluLmNvbTAeFw0yNDA2MjgxODI3MDZaFw0yNTA2MjgxODQ3MDZaMBcxFTATBgNVBAMMDG15ZG9tYWluLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAO5EMM1yyTfwOvZRAGtsicSAc07L6vk77lyzQc3RgS4CRSRgeyKQmtr3zgoqkbhhUOJq6y5el637t27RAAORpgFAF9Nfja7xdfhPb5iTz0szP2hA4LGtJjFleX9Qx9JizoxPU+Ue9beE0JsERahn1avlXWddshSDLFGKB7Wvw+4nL4aF88npst+fQVs7FxE6szuGNoiRPK8nnNGQrbUXFAy4s5MHhaSqGC3GD8V5pHJlN/BxMUMOKSJhbRHBDD28awAPF0bplZdmDUUWwx6r4e5sy/uU9rHCrbZ/8686MoNl9WwD8rXgyZ35lZCrekq4uxmCoTkochmccwNCt/AA/+ECAwEAAaNpMGcwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAXBgNVHREEEDAOggxteWRvbWFpbi5jb20wHQYDVR0OBBYEFBOVeslTmuu5HMlXf4XwCi+1ItGWMA0GCSqGSIb3DQEBBQUAA4IBAQCyGxa5FmOCSbkLUMTUUPrFh+I4Y9W4Eb/kcyzqTYpFl1wVzYmpsR5ogxdxTcdhIHw8XHXZmrNEtbUd5Vn4rPPEhw0ah3cXL3Q04RVTUbjfkPPLlAHB0uxqtQRPoBQRIi7TAXK1FDGUl4cTYV7JUiCZPmVkNjrBhMBmcVyzN/BeSrMZrRpf2JJAKKX1pRZDWts6CmxZ9yZratqdog4qyZ21xjatFmXq+4EaIOFWKE23YyMmxAEk5gkYuS0KP/bRiqWGbL3/4XY+IQd4Gvia3SKNiGwf87GeF+fyeLvmD+UoywwZ630NQtTgod7ApaADbGqkschDawY1zgzVZIvCYq+S</serializedValue>
         </property>
         <property path="/identity/certificateReference" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.CertificateReferenceElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.CertificateReferenceElement</serializedValue>
@@ -321,10 +321,10 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="BasicHttpBinding_IService" contract="ServiceReference1.IService" bindingType="basicHttpBinding" address="http://smarthotelregistrationwcf20240621113659.azurewebsites.net/Service.svc/basic" bindingConfiguration="BasicHttpBinding_IService">
+    <endpoint name="BasicHttpBinding_IService" contract="ServiceReferenceIvan.IService" bindingType="basicHttpBinding" address="http://cibc-smarthotelregistrationwcf.azurewebsites.net/Service.svc/basic" bindingConfiguration="BasicHttpBinding_IService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://smarthotelregistrationwcf20240621113659.azurewebsites.net/Service.svc/basic</serializedValue>
+          <serializedValue>http://cibc-smarthotelregistrationwcf.azurewebsites.net/Service.svc/basic</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -336,7 +336,7 @@
           <serializedValue>BasicHttpBinding_IService</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>ServiceReference1.IService</serializedValue>
+          <serializedValue>ServiceReferenceIvan.IService</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>

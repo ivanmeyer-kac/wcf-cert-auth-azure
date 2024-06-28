@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ff0b5fa4-92e4-4534-bb2f-ff88be79f22d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="81a3f61d-b688-4d1c-a7a5-82dc35a8b75c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,10 +19,10 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://smarthotelregistrationwcf20240621113659.azurewebsites.net/Service.svc?singleWsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://cibc-smarthotelregistrationwcf.azurewebsites.net/Service.svc?singleWsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="5b59d085-ae25-4789-8616-39012259024a" SourceId="1" SourceUrl="http://smarthotelregistrationwcf20240621113659.azurewebsites.net/Service.svc?singleWsdl" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="1c93b74a-1338-4db9-ac53-48076ae950cb" SourceId="1" SourceUrl="http://cibc-smarthotelregistrationwcf.azurewebsites.net/Service.svc?singleWsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

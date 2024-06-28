@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WCFClient.ServiceReference1 {
+namespace WCFClient.ServiceReferenceIvan {
     using System.Runtime.Serialization;
     using System;
     
@@ -264,41 +264,41 @@ namespace WCFClient.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReferenceIvan.IService")]
     public interface IService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetTodayRegistrations", ReplyAction="http://tempuri.org/IService/GetTodayRegistrationsResponse")]
-        WCFClient.ServiceReference1.Registration[] GetTodayRegistrations();
+        WCFClient.ServiceReferenceIvan.Registration[] GetTodayRegistrations();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetTodayRegistrations", ReplyAction="http://tempuri.org/IService/GetTodayRegistrationsResponse")]
-        System.Threading.Tasks.Task<WCFClient.ServiceReference1.Registration[]> GetTodayRegistrationsAsync();
+        System.Threading.Tasks.Task<WCFClient.ServiceReferenceIvan.Registration[]> GetTodayRegistrationsAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetTodayRegistrationSummary", ReplyAction="http://tempuri.org/IService/GetTodayRegistrationSummaryResponse")]
-        WCFClient.ServiceReference1.RegistrationDaySummary GetTodayRegistrationSummary();
+        WCFClient.ServiceReferenceIvan.RegistrationDaySummary GetTodayRegistrationSummary();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetTodayRegistrationSummary", ReplyAction="http://tempuri.org/IService/GetTodayRegistrationSummaryResponse")]
-        System.Threading.Tasks.Task<WCFClient.ServiceReference1.RegistrationDaySummary> GetTodayRegistrationSummaryAsync();
+        System.Threading.Tasks.Task<WCFClient.ServiceReferenceIvan.RegistrationDaySummary> GetTodayRegistrationSummaryAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetCheckin", ReplyAction="http://tempuri.org/IService/GetCheckinResponse")]
-        WCFClient.ServiceReference1.Registration GetCheckin(int registrationId);
+        WCFClient.ServiceReferenceIvan.Registration GetCheckin(int registrationId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetCheckin", ReplyAction="http://tempuri.org/IService/GetCheckinResponse")]
-        System.Threading.Tasks.Task<WCFClient.ServiceReference1.Registration> GetCheckinAsync(int registrationId);
+        System.Threading.Tasks.Task<WCFClient.ServiceReferenceIvan.Registration> GetCheckinAsync(int registrationId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetCheckout", ReplyAction="http://tempuri.org/IService/GetCheckoutResponse")]
-        WCFClient.ServiceReference1.Registration GetCheckout(int registrationId);
+        WCFClient.ServiceReferenceIvan.Registration GetCheckout(int registrationId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetCheckout", ReplyAction="http://tempuri.org/IService/GetCheckoutResponse")]
-        System.Threading.Tasks.Task<WCFClient.ServiceReference1.Registration> GetCheckoutAsync(int registrationId);
+        System.Threading.Tasks.Task<WCFClient.ServiceReferenceIvan.Registration> GetCheckoutAsync(int registrationId);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IServiceChannel : WCFClient.ServiceReference1.IService, System.ServiceModel.IClientChannel {
+    public interface IServiceChannel : WCFClient.ServiceReferenceIvan.IService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ServiceClient : System.ServiceModel.ClientBase<WCFClient.ServiceReference1.IService>, WCFClient.ServiceReference1.IService {
+    public partial class ServiceClient : System.ServiceModel.ClientBase<WCFClient.ServiceReferenceIvan.IService>, WCFClient.ServiceReferenceIvan.IService {
         
         public ServiceClient() {
         }
@@ -319,35 +319,35 @@ namespace WCFClient.ServiceReference1 {
                 base(binding, remoteAddress) {
         }
         
-        public WCFClient.ServiceReference1.Registration[] GetTodayRegistrations() {
+        public WCFClient.ServiceReferenceIvan.Registration[] GetTodayRegistrations() {
             return base.Channel.GetTodayRegistrations();
         }
         
-        public System.Threading.Tasks.Task<WCFClient.ServiceReference1.Registration[]> GetTodayRegistrationsAsync() {
+        public System.Threading.Tasks.Task<WCFClient.ServiceReferenceIvan.Registration[]> GetTodayRegistrationsAsync() {
             return base.Channel.GetTodayRegistrationsAsync();
         }
         
-        public WCFClient.ServiceReference1.RegistrationDaySummary GetTodayRegistrationSummary() {
+        public WCFClient.ServiceReferenceIvan.RegistrationDaySummary GetTodayRegistrationSummary() {
             return base.Channel.GetTodayRegistrationSummary();
         }
         
-        public System.Threading.Tasks.Task<WCFClient.ServiceReference1.RegistrationDaySummary> GetTodayRegistrationSummaryAsync() {
+        public System.Threading.Tasks.Task<WCFClient.ServiceReferenceIvan.RegistrationDaySummary> GetTodayRegistrationSummaryAsync() {
             return base.Channel.GetTodayRegistrationSummaryAsync();
         }
         
-        public WCFClient.ServiceReference1.Registration GetCheckin(int registrationId) {
+        public WCFClient.ServiceReferenceIvan.Registration GetCheckin(int registrationId) {
             return base.Channel.GetCheckin(registrationId);
         }
         
-        public System.Threading.Tasks.Task<WCFClient.ServiceReference1.Registration> GetCheckinAsync(int registrationId) {
+        public System.Threading.Tasks.Task<WCFClient.ServiceReferenceIvan.Registration> GetCheckinAsync(int registrationId) {
             return base.Channel.GetCheckinAsync(registrationId);
         }
         
-        public WCFClient.ServiceReference1.Registration GetCheckout(int registrationId) {
+        public WCFClient.ServiceReferenceIvan.Registration GetCheckout(int registrationId) {
             return base.Channel.GetCheckout(registrationId);
         }
         
-        public System.Threading.Tasks.Task<WCFClient.ServiceReference1.Registration> GetCheckoutAsync(int registrationId) {
+        public System.Threading.Tasks.Task<WCFClient.ServiceReferenceIvan.Registration> GetCheckoutAsync(int registrationId) {
             return base.Channel.GetCheckoutAsync(registrationId);
         }
     }

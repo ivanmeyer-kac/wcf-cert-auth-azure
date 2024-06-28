@@ -7,7 +7,7 @@ using System.Configuration;
 using System.Security.Cryptography.X509Certificates;
 using System.ServiceModel;
 using System.Threading.Tasks;
-using WCFClient.ServiceReference1;
+using WCFClient.ServiceReferenceIvan;
 
 namespace WCFClient
 {

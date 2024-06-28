@@ -508,20 +508,20 @@
   </wsdl:binding>
   <wsdl:service name="Service">
     <wsdl:port name="WSHttpBinding_IService" binding="tns:WSHttpBinding_IService">
-      <soap12:address location="http://smarthotelregistrationwcf20240621113659.azurewebsites.net/Service.svc" />
+      <soap12:address location="http://cibc-smarthotelregistrationwcf.azurewebsites.net/Service.svc" />
       <wsa10:EndpointReference>
-        <wsa10:Address>http://smarthotelregistrationwcf20240621113659.azurewebsites.net/Service.svc</wsa10:Address>
+        <wsa10:Address>http://cibc-smarthotelregistrationwcf.azurewebsites.net/Service.svc</wsa10:Address>
         <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
           <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
             <X509Data>
-              <X509Certificate>MIIDITCCAgmgAwIBAgIQYe3tuMPWAbFPY7xA9FldizANBgkqhkiG9w0BAQUFADAXMRUwEwYDVQQDDAxteWRvbWFpbi5jb20wHhcNMjQwNjIxMTQ1MjUyWhcNMjUwNjIxMTUxMjUyWjAXMRUwEwYDVQQDDAxteWRvbWFpbi5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCntTpHjaQ6TISwfiBj7wWKwOaOgJijDT8m1HKB2d1opkXYPtPetiR4Na+z35VMLNgAl5MhpJyNNTrO46Vcn/3jTcNKBzftRWAHJOPbXrvFC0rHU+jO/FkPThgDHDBWqzYm/uYziJ5R0SEJOGRpRY0yKRxiKI+pPa/7EJk8Fx8C5z2C2AC9oboI2tuY8D3Q+nDTyxEVZzATqA44xvAEmeUZ/43lz4yvf3M5trSvwr2i27q2vpQjvBnMBSjL+YkhnJ3Cmo7r9Z83kojJ8IpsbNsVI6+LlRDu98j/7vwAsGe9yzV0r7JSrzqZionozhlblNX7vpH2qJUyD4L0kxZ12ErtAgMBAAGjaTBnMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwFwYDVR0RBBAwDoIMbXlkb21haW4uY29tMB0GA1UdDgQWBBTaIuTFMt9aStkaxFhovIjWRpSB+zANBgkqhkiG9w0BAQUFAAOCAQEAlkkXJkgwtbOL3LRd4XwFbyDS8hBLmIV6VjsdlwqgHsS5iAM8HXKzXkcBorCFLA2bnFqWKY9zhWUjBgM5BnyrwgPYzi5wlGrpfxlR2S0Bko/nV3hOvpnP+6zmfUtFXW17vc90PsiaOzeYbp3MNtsR3bIIeRtzVHoH1O8xXLrZyzRmRYBlpzITc0TAoEokO7mZkwXCJET+yLg3LLym4ePMCH5eIs2klqHK+TyxzGfGCi8nl76CRt/fjEtcmpoYM1z3QWg8Kc7lTdIVxFLryUPyuKM12GL95z6IvMrikOE/Bqe/eSKM4hbocO/8782GxOcrbSKj9ov2A5RU1lsfGcipEA==</X509Certificate>
+              <X509Certificate>MIIDITCCAgmgAwIBAgIQGAeXvbqAE5FL+QBgnwrndzANBgkqhkiG9w0BAQUFADAXMRUwEwYDVQQDDAxteWRvbWFpbi5jb20wHhcNMjQwNjI4MTgyNzA2WhcNMjUwNjI4MTg0NzA2WjAXMRUwEwYDVQQDDAxteWRvbWFpbi5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDuRDDNcsk38Dr2UQBrbInEgHNOy+r5O+5cs0HN0YEuAkUkYHsikJra984KKpG4YVDiausuXpet+7du0QADkaYBQBfTX42u8XX4T2+Yk89LMz9oQOCxrSYxZXl/UMfSYs6MT1PlHvW3hNCbBEWoZ9Wr5V1nXbIUgyxRige1r8PuJy+GhfPJ6bLfn0FbOxcROrM7hjaIkTyvJ5zRkK21FxQMuLOTB4Wkqhgtxg/FeaRyZTfwcTFDDikiYW0RwQw9vGsADxdG6ZWXZg1FFsMeq+HubMv7lPaxwq22f/OvOjKDZfVsA/K14Mmd+ZWQq3pKuLsZgqE5KHIZnHMDQrfwAP/hAgMBAAGjaTBnMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwFwYDVR0RBBAwDoIMbXlkb21haW4uY29tMB0GA1UdDgQWBBQTlXrJU5rruRzJV3+F8AovtSLRljANBgkqhkiG9w0BAQUFAAOCAQEAshsWuRZjgkm5C1DE1FD6xYfiOGPVuBG/5HMs6k2KRZdcFc2JqbEeaIMXcU3HYSB8PFx12ZqzRLW1HeVZ+KzzxIcNGod3Fy90NOEVU1G435Dzy5QBwdLsarUET6AUESIu0wFytRQxlJeHE2FeyVIgmT5lZDY6wYTAZnFcszfwXkqzGa0aX9iSQCil9aUWQ1rbOgpsWfcma2ranaIOKsmdtcY2rRZl6vuBGiDhVihNt2MjJsQBJOYJGLktCj/20Yqlhmy9/+F2PiEHeBr4mt0ijYhsH/Oxnhfn8ni75g/lKMsMGet9DULU4KHewKWgA2xqpLHIQ2sGNc4M1WSLwmKvkg==</X509Certificate>
             </X509Data>
           </KeyInfo>
         </Identity>
       </wsa10:EndpointReference>
     </wsdl:port>
     <wsdl:port name="BasicHttpBinding_IService" binding="tns:BasicHttpBinding_IService">
-      <soap:address location="http://smarthotelregistrationwcf20240621113659.azurewebsites.net/Service.svc/basic" />
+      <soap:address location="http://cibc-smarthotelregistrationwcf.azurewebsites.net/Service.svc/basic" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
