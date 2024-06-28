@@ -10,7 +10,7 @@ namespace SmartHotel.Registration.Wcf
         {
             // Implement your validation logic here
             // For example, check the certificate's thumbprint or issuer
-            if (certificate.Thumbprint != "ea4b3fabd5309bf672a70781dc17cef8ec3d0bb8".ToUpper())
+            if (certificate.Thumbprint != "E2265471EEBC884563D682AFCCF162C7B31C61AA".ToUpper())
             {
                 throw new SecurityTokenValidationException("Certificate validation failed.");
             }
