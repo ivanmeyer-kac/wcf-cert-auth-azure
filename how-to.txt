@@ -5,8 +5,17 @@ These are the steps that you have to follow for the fourth exercise: (wcf-cert-a
 In Azure:
 4-Import the certificate created in the step 1
 5-Enable HTTP in the configuration of the new app service, created in the step 3
-6-For the KV: In Access control (IAM), under Role assignments. Added : Key Vault Certificates Officer and Key Vault Secrets User for the App Service
-7-If your Access configuration is RBAC use the step 6
-Note: If you use Access policy you have to configure Access policies
+6-If your KV's Access configuration is RBAC (role-based access control), use the step 7a. Or if you use Access policy, you have to configure Access policies of step 7b.
+7a-For the KV: In Access control (IAM), under Role assignments. Add: Key Vault Certificates Officer and Key Vault Secrets User for the App Service
+7b-For the KV: In Access policies, grant Get and List operations for Certificates to the App Service
+
 In Visual Studio:
 8-Remove the ServiceReference1 and add a new Service Reference with your own URL
+
+------------
+
+
+https://cibc-smarthotelregistrationwcf.azurewebsites.net/service.svc
+
+http://cibc-smarthotelregistrationwcf.azurewebsites.net/Service.svc?singleWsdl
+
